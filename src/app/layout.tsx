@@ -1,7 +1,7 @@
 import "../globals.css";
 
 export const metadata = {
-  title: "Liveblocks",
+  title: "ColabTools",
 };
 
 export default function RootLayout({
@@ -12,18 +12,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          href="https://liveblocks.io/favicon-32x32.png"
-          rel="icon"
-          sizes="32x32"
-          type="image/png"
-        />
-        <link
-          href="https://liveblocks.io/favicon-16x16.png"
-          rel="icon"
-          sizes="16x16"
-          type="image/png"
-        />
+        <link href="/icon.svg" rel="icon" sizes="32x32" type="image/png" />
+        <link href="/icon.svg" rel="icon" sizes="16x16" type="image/png" />
       </head>
       <body>{children}</body>
     </html>
