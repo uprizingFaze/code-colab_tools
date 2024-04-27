@@ -52,7 +52,7 @@
 
 ```bash
 git clone https://github.com/uprizingFaze/code-colab_tools.git
-cd Colab_Tools
+cd code-colab_tools
 ```
 
 #####  Instalación de dependencias:
